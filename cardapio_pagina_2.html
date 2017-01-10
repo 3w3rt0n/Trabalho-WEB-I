@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <title>FastLanche</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvWqFXja8QVbYpLeW6h3NkZHU8rFiOLYQ"></script>
+  <script type="text/javascript" src="js/mapa.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap" async defer></script>
+</head>
+<body>
+  
+<div class="container">
+
+  <!-- Menu -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-cutlery"></span>FastLanche</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="cadastro.html">Contato</a></li> 
+        <li><a href="mapa.html">Mapa</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Fim Menu -->
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="page-header text-center">
+        <h1>Nosso Cardápio</h1>
+        <div class="">
+          <img class="center-block img-responsive" src="imagens/header_cardapio.png">
+          <br/>
+          <h1 id="topoCardapio">Sanduíches Naturais</h1>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">FastSanduíche Frango Teryaki.</h2>
+      <p class="lead">Pão 9 grãos, alface, tomate, cebola, pimentão e pepino.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" src="imagens/cardapio_frango_teriaky.jpg" alt="FastBurger Frango Teriaky">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 col-md-push-5">
+      <h2 class="featurette-heading">FastSanduíche Atum.</h2>
+      <p class="lead">Pão 9 grãos 15 cm, alface, tomate, cebola, pimentão e pepino, mistura de atum com maionese light.</p>
+    </div>
+    <div class="col-md-5 col-md-pull-7">
+      <img class="featurette-image img-responsive center-block" src="imagens/cardapio_atum.jpg" alt="FastBurger Picanha">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">FastSanduíche Presunto.</h2>
+      <p class="lead"> Pão 9 grãos, alface, tomate, cebola, pimentão e pepino e Fatias de presuntos.</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive center-block" src="imagens/cardapio_presunto.jpg" alt="FastBurger Cheddar">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">	
+
+  <!-- Paginação -->
+  <div class="text-center">
+    <nav aria-label="Page navigation">
+      <ul class="pagination">
+        <li>
+          <a href="cardapio.html#topoCardapio" aria-label="Anterior">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li><a href="cardapio.html#topoCardapio">1</a></li>
+        <li><a href="#topoCardapio">2</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Fim Paginação -->
+
+	<!-- Rodapé -->
+	<div class="page-footer">
+		<div class="container">
+			<span class="glyphicon glyphicon-copyright-mark vertical-center" > Projeto UFRN, disciplina WEB I</span>
+		</div>
+	</div>
+	<!-- Fim Rodapé -->
+
+</div>
+
+</body>
+</html>
